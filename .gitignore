@@ -1,0 +1,21 @@
+# Environment
+.env
+
+# Dependencies
+/vendor/
+
+# Real database dumps (only the demo schema.sql and seed.sql are tracked)
+/dumps/
+*.dump.sql
+*.real.sql
+
+# PDF output / runtime
+/storage/cache/
+/storage/*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
